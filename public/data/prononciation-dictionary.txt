@@ -1,0 +1,243 @@
+## Berlin German Accent Dictionary
+
+### English Pronunciation Rules
+
+```json
+{
+  "version": "1.0",
+  "engine": "standard",
+  "pronunciations": [
+    {
+      "grapheme": "w",
+      "phoneme": "v",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "grapheme": "th",
+      "phoneme": "z",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "grapheme": "v",
+      "phoneme": "f",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "grapheme": "r",
+      "phoneme": "ʁ",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "grapheme": "ing",
+      "phoneme": "ink",
+      "context_before": "",
+      "context_after": "$"
+    },
+    {
+      "grapheme": "j",
+      "phoneme": "y",
+      "context_before": "",
+      "context_after": ""
+    }
+  ],
+  "aliases": [
+    {
+      "word": "the",
+      "alias": "ze"
+    },
+    {
+      "word": "that",
+      "alias": "zat"
+    },
+    {
+      "word": "this",
+      "alias": "zis"
+    },
+    {
+      "word": "thinking",
+      "alias": "zinking"
+    },
+    {
+      "word": "with",
+      "alias": "viz"
+    },
+    {
+      "word": "very",
+      "alias": "fery"
+    },
+    {
+      "word": "wonderful",
+      "alias": "vunderful"
+    },
+    {
+      "word": "what",
+      "alias": "vat"
+    },
+    {
+      "word": "working",
+      "alias": "vorking"
+    },
+    {
+      "word": "right",
+      "alias": "richt"
+    },
+    {
+      "word": "I",
+      "alias": "Ick"
+    }
+  ]
+}
+```
+
+### German Dialect Markers (Berlin/Brandenburg)
+
+```json
+{
+  "version": "1.0",
+  "engine": "standard",
+  "pronunciations": [
+    {
+      "grapheme": "g",
+      "phoneme": "j",
+      "context_before": "",
+      "context_after": "e"
+    },
+    {
+      "grapheme": "ich",
+      "phoneme": "ick",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "grapheme": "s",
+      "phoneme": "z",
+      "context_before": "",
+      "context_after": "t"
+    }
+  ],
+  "aliases": [
+    {
+      "word": "ein",
+      "alias": "een"
+    },
+    {
+      "word": "eine",
+      "alias": "eene"
+    },
+    {
+      "word": "kein",
+      "alias": "keen"
+    },
+    {
+      "word": "keine",
+      "alias": "keene"
+    },
+    {
+      "word": "mein",
+      "alias": "meen"
+    },
+    {
+      "word": "nicht",
+      "alias": "nich"
+    },
+    {
+      "word": "ist",
+      "alias": "is"
+    },
+    {
+      "word": "das",
+      "alias": "dit"
+    },
+    {
+      "word": "was",
+      "alias": "wat"
+    },
+    {
+      "word": "bisschen",
+      "alias": "bissken"
+    },
+    {
+      "word": "Junge",
+      "alias": "Junger"
+    }
+  ]
+}
+```
+
+### Korean with German Accent
+
+```json
+{
+  "version": "1.0",
+  "engine": "standard",
+  "pronunciations": [
+    {
+      "grapheme": "ㄹ",
+      "phoneme": "ʁ",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "grapheme": "ㅈ",
+      "phoneme": "z",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "grapheme": "ㅂ",
+      "phoneme": "p",
+      "context_before": "",
+      "context_after": ""
+    }
+  ],
+  "aliases": [
+    {
+      "word": "안녕하세요",
+      "alias": "안녕하제요"
+    },
+    {
+      "word": "감사합니다",
+      "alias": "감사함니다"
+    },
+    {
+      "word": "어디",
+      "alias": "어디ㅎ"
+    },
+    {
+      "word": "저는",
+      "alias": "제는"
+    },
+    {
+      "word": "베를린",
+      "alias": "베를린ㅎ"
+    }
+  ]
+}
+```
+
+### Berlin Expressions and Filler Words (for all languages)
+
+```json
+{
+  "version": "1.0",
+  "engine": "standard",
+  "aliases": [
+    {
+      "word": ".",
+      "alias": ". wa?"
+    },
+    {
+      "word": "?",
+      "alias": ", oder?"
+    },
+    {
+      "word": "!",
+      "alias": ", nech!"
+    }
+  ]
+}
+```

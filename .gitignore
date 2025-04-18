@@ -49,6 +49,3 @@ Thumbs.db
 # External repositories (cloned during build process)
 /external-repos/
 
-# Generated content
-/public/data/
-combined-markdown.md
