@@ -22,14 +22,14 @@ img {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #646cff;
   margin-bottom: 2rem;
   text-align: center;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -43,7 +43,6 @@ p {
   padding: 2rem;
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 .form-group {
@@ -99,7 +98,6 @@ input:focus {
 .content-container {
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
   padding: 2rem;
 }
 
@@ -174,6 +172,151 @@ input:focus {
   background-color: #f0f7ff;
   border-radius: 4px;
   text-align: center;
+}
+
+/* Media Report Styles */
+.media-report {
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+}
+
+.media-report h2 {
+  color: #495057;
+  margin-top: 0;
+}
+
+.media-report.empty {
+  text-align: center;
+  color: #6c757d;
+  padding: 2rem;
+}
+
+.media-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.media-table th,
+.media-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.media-table th {
+  background-color: #e9ecef;
+  font-weight: 600;
+}
+
+.media-table tr:hover {
+  background-color: #f1f3f5;
+}
+
+.preview-container {
+  width: 120px;
+  height: 80px;
+  background-color: #e9ecef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.preview-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.instagram-preview, .twitter-preview, .vimeo-preview {
+  color: #495057;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.copy-btn {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.copy-btn:hover {
+  background-color: #5a6268;
+}
+
+.external-link {
+  font-size: 0.8rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.external-link:hover {
+  text-decoration: underline;
+}
+
+.export-options {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+#export-json-btn, #export-csv-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+#export-json-btn:hover, #export-csv-btn:hover {
+  background-color: #218838;
+}
+
+/* Add a tab system for viewing content and media report */
+.tabs {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.tab {
+  padding: 0.75rem 1.5rem;
+  background-color: #e9ecef;
+  border: 1px solid #dee2e6;
+  border-bottom: none;
+  border-radius: 0.25rem 0.25rem 0 0;
+  cursor: pointer;
+  margin-right: 0.25rem;
+}
+
+.tab.active {
+  background-color: #fff;
+  border-bottom: 1px solid #fff;
+  margin-bottom: -1px;
+  font-weight: 600;
+}
+
+.tab-content {
+  display: none;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0 0.25rem 0.25rem 0.25rem;
+}
+
+.tab-content.active {
+  display: block;
 }
 
 /* Responsive adjustments */
