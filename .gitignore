@@ -28,3 +28,27 @@ dist-ssr
 /external-repos/*
 external-repos
 markdown
+
+# Dependency directories
+node_modules/
+.npm
+
+# Compiled output
+/dist
+/build
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# External repositories (cloned during build process)
+/external-repos/
+
+# Generated content
+/public/data/
+combined-markdown.md
